@@ -1,0 +1,11 @@
+from lib.sparkfun     import Sparkfun       as Stimulus
+from lib.supply_board import INA219_Current as MeterUnderTest
+from lib.rigol        import RigolCurrent   as MeterReference
+
+stimulus_range = range(500,1000,10)
+
+#brng=0 pg=0 badc=0xf sadc=0x0
+#brng=0 pg=0 badc=0xf sadc=0x4
+#brng=0 pg=0 badc=0xf sadc=0xC
+#brng=0 pg=0 badc=0xf sadc=0xF
+

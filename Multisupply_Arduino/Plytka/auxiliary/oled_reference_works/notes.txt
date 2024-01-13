@@ -1,0 +1,2 @@
+wymaga zainstalowania pakietu dla arduino rp pico wg. towshardware
+potem trzeba doinstalować bibliotekę adafruit ssd1306
