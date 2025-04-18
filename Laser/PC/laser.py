@@ -4,7 +4,7 @@ def _write_commmand(cmd):
     global comm
     print(cmd)
    
-    comm = serial.Serial('Com5',115200,timeout=1)
+    comm = serial.Serial('Com23',115200,timeout=1)
     # time.sleep(0.5)
     comm.flushInput()
     
@@ -20,4 +20,4 @@ def set_div(div):
    _write_commmand(f"set_div({div})")
 
 
-set_div(0xA53)
+set_div(100)#0xA53
